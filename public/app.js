@@ -33,7 +33,7 @@ document.getElementById("btnGetToken").addEventListener("click", async () => {
       name: "Usertest",
       topic: "topicTest"
     } 
-    await fetch("https://script.google.com/macros/s/AKfycbzB81UZuNvYfexEpg4-ZcDVhRwBa4qgYRRJqqx5um10yfm4l4VcmkxNNnr43cJw0arXyg/exec", {
+    await fetch("https://script.google.com/macros/s/AKfycbwAir3E6RMCd3-PNgqFcBmYYouf9DHb3wvdjTAIYYAggyU3IFCy062XpbKnyfFmEjUYDA/exec", {
       method: "POST",
       mode: "no-cors",
       headers: {
