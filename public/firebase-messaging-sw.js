@@ -22,3 +22,8 @@ messaging.onBackgroundMessage(payload => {
 
   self.registration.showNotification(notificationTitle, notificationOptions);
 });
+
+// ✅ Debug push raw event
+self.addEventListener("push", (event) => {
+  console.log("📩 Raw Push event:", event.data ? event.data.text() : "No data");
+});
